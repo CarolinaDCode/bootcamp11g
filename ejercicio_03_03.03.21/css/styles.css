@@ -1,0 +1,72 @@
+@font-face{
+    font-family: "OpenSans Bold";
+    src: url("../font/OpenSans-Bold.ttf");
+}
+
+@font-face{
+    font-family: "OpenSans Regular";
+    src: url("../font/OpenSans-Regular.ttf");
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    
+}
+
+img{
+    width: 60px;
+    height: 60px;
+}
+
+h1{
+ font-family: "OpenSans Bold";
+ margin-bottom: 8px;  
+}
+
+p{
+  font-family: "OpenSans Regular";
+  margin-top: 0;
+  text-align: center; 
+}
+
+.white{
+    color: white;
+}
+
+.subContainer{
+    width: 230px;
+    height: 24vw;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1.5rem;
+    border-radius: 5px;
+    border: 3px solid black;
+    margin-left: 1.2rem;
+    margin-right: 1.2rem;
+
+}
+
+.magenta{
+    background-color: deeppink;
+    border-color: deeppink;
+
+}
+
+.btn{
+    width: 240px;
+    height: 40px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 20px;
+}
+
+.whitebtn{
+    background-color: white;
+    color: deeppink;
+}
